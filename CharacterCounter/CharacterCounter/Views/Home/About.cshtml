@@ -1,0 +1,42 @@
+﻿@{
+    //anything inside these squigglies is C#
+    ViewData["Title"] = "About";
+    var name = "Tom";
+
+    var markup = "<b>Hello</b>";
+
+    string[] cars = { "Audi", "Honda", "Ford", "Porsche", "Toyota" };
+
+    int edges = 8;
+
+}
+<div class="text-center">
+    <h1>About</h1>
+    <p>This is the about page</p>
+    <p>@name</p>
+</div>
+
+<div>
+    @markup
+</div>
+
+<div>
+    @Html.Raw(markup)
+</div>
+
+<p>@DateTime.Now.ToString()</p>
+
+<ol>
+    @foreach (string car in cars)
+    {
+        <li>@car</li>
+    }
+</ol>
+@if(edges == 8)
+            {
+                <p>This is an octogon!</p>
+            }
+else
+            {
+                <p>This is not an octogon</p>
+            }

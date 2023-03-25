@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Web\\HGAST.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\HGAST.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\HGAST.Models.csproj",
+        "projectName": "HGAST.Models",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\HGAST.Models.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\HGAST.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\HGAST.Repositories.csproj",
+        "projectName": "HGAST.Repositories",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\HGAST.Repositories.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\HGAST.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\HGAST.Services.csproj",
+        "projectName": "HGAST.Services",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\HGAST.Services.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\hgast.utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\hgast.utilities.csproj",
+        "projectName": "hgast.utilities",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\hgast.utilities.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\HGAST.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\HGAST.ViewModels.csproj",
+        "projectName": "HGAST.ViewModels",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\HGAST.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Web\\HGAST.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Web\\HGAST.Web.csproj",
+        "projectName": "HGAST.Web",
+        "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Web\\HGAST.Web.csproj",
+        "packagesPath": "C:\\Users\\willv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\HGAST.Models.csproj": {
+                "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Models\\HGAST.Models.csproj"
+              },
+              "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\HGAST.Repositories.csproj": {
+                "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Repositories\\HGAST.Repositories.csproj"
+              },
+              "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\HGAST.Services.csproj": {
+                "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.Services\\HGAST.Services.csproj"
+              },
+              "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\hgast.utilities.csproj": {
+                "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\hgast.utilities\\hgast.utilities.csproj"
+              },
+              "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\HGAST.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\willv\\source\\repos\\HGAST\\HGAST.ViewModels\\HGAST.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

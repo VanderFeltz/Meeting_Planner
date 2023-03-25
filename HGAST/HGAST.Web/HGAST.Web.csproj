@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\HGAST.Models\HGAST.Models.csproj" />
+	  <ProjectReference Include="..\HGAST.Repositories\HGAST.Repositories.csproj" />
+	  <ProjectReference Include="..\HGAST.Services\HGAST.Services.csproj" />
+	  <ProjectReference Include="..\hgast.utilities\hgast.utilities.csproj" />
+	  <ProjectReference Include="..\HGAST.ViewModels\HGAST.ViewModels.csproj" />
+	</ItemGroup>
+
+</Project>

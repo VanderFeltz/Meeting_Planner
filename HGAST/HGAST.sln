@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGAST.Web", "HGAST.Web\HGAST.Web.csproj", "{288A1553-8608-4767-9040-7C24202EFB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGAST.Models", "HGAST.Models\HGAST.Models.csproj", "{6C9A933A-1D9B-4243-95C1-A5428C13B0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGAST.ViewModels", "HGAST.ViewModels\HGAST.ViewModels.csproj", "{EBDEE802-2C13-485B-845F-7BFB5276517D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGAST.Repositories", "HGAST.Repositories\HGAST.Repositories.csproj", "{36462C72-83E1-4AD6-BBDC-B3CC6C6F1EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGAST.Services", "HGAST.Services\HGAST.Services.csproj", "{5A76F9F8-5885-47D3-BA94-8BC93B367E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hgast.utilities", "hgast.utilities\hgast.utilities.csproj", "{61DCACA5-4028-42B4-B131-E3C2ADFEC4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288A1553-8608-4767-9040-7C24202EFB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288A1553-8608-4767-9040-7C24202EFB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288A1553-8608-4767-9040-7C24202EFB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288A1553-8608-4767-9040-7C24202EFB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9A933A-1D9B-4243-95C1-A5428C13B0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9A933A-1D9B-4243-95C1-A5428C13B0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9A933A-1D9B-4243-95C1-A5428C13B0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9A933A-1D9B-4243-95C1-A5428C13B0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDEE802-2C13-485B-845F-7BFB5276517D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDEE802-2C13-485B-845F-7BFB5276517D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDEE802-2C13-485B-845F-7BFB5276517D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDEE802-2C13-485B-845F-7BFB5276517D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36462C72-83E1-4AD6-BBDC-B3CC6C6F1EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36462C72-83E1-4AD6-BBDC-B3CC6C6F1EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36462C72-83E1-4AD6-BBDC-B3CC6C6F1EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36462C72-83E1-4AD6-BBDC-B3CC6C6F1EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A76F9F8-5885-47D3-BA94-8BC93B367E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76F9F8-5885-47D3-BA94-8BC93B367E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76F9F8-5885-47D3-BA94-8BC93B367E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76F9F8-5885-47D3-BA94-8BC93B367E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DCACA5-4028-42B4-B131-E3C2ADFEC4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DCACA5-4028-42B4-B131-E3C2ADFEC4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DCACA5-4028-42B4-B131-E3C2ADFEC4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DCACA5-4028-42B4-B131-E3C2ADFEC4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3AC04BF-D045-48DF-A22D-12B085743C21}
+	EndGlobalSection
+EndGlobal
